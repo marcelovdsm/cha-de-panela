@@ -1,5 +1,5 @@
 import './App.css'
 
-function App() {}
-
-export default App
+export function App() {
+  return <h1>Hello World</h1>
+}
