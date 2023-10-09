@@ -10,6 +10,11 @@ export const HomepageStyledComponent = styled.div`
     font-family: 'tangerine';
     font-size: 3.5rem;
   }
+  p {
+    font-family: 'Roboto';
+    font-size: 1.2rem;
+    background: ${(props) => props.theme.lightGreen};
+  }
 
   color: ${(props) => props.theme.darkGreen};
 
@@ -21,14 +26,10 @@ export const HomepageStyledComponent = styled.div`
   margin: 6rem 25rem;
   border-radius: 25px;
   box-shadow:
-    rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px,
-    rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px,
-    rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
   max-width: 100vw;
   height: 25rem;
 
-  background-color: ${(props) => props.theme.lightGreen};
+  background: ${(props) => props.theme.lightGreen};
 `
