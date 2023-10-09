@@ -25,9 +25,7 @@ export const HomepageStyledComponent = styled.div`
 
   margin: 6rem 25rem;
   border-radius: 25px;
-  box-shadow:
-    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
   max-width: 100vw;
   height: 25rem;
 

@@ -7,14 +7,10 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
 
-  body {
-    background: url('../assets/white-waves.png');
-  }
-  
   body, p, span {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 1rem;
-
+    background: ${(props) => props.theme.backgroundLatte};
   }
 `
