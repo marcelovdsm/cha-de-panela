@@ -1,4 +1,4 @@
-export const Inspirations = () => {
+export const InspirationsPage = () => {
   return (
     <>
       <h1>Inspire-se</h1>

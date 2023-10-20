@@ -1,6 +1,7 @@
 // import { Homepage } from './components/Homepage'
 import { AboutPage } from './components/AboutPage'
-import { Inspirations } from './components/InspirationsPage'
+import { ConfirmationPage } from './components/ConfirmationPage'
+import { InspirationsPage } from './components/InspirationsPage'
 import { WelcomePage } from './components/WelcomePage'
 import { GlobalStyle } from './styles/global'
 import { defaultTheme } from './styles/themes/default'
@@ -13,8 +14,9 @@ export function App() {
       {/* <Homepage /> */}
       <WelcomePage />
       <AboutPage />
-      <Inspirations />
+      <InspirationsPage />
       <GlobalStyle />
+      <ConfirmationPage />
     </ThemeProvider>
   )
 }

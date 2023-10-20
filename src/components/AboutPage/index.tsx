@@ -23,6 +23,7 @@ export const AboutPage = () => {
           <p>00 de Dezembro de 2023, às 00Hrs</p>
         </li>
       </ul>
+      <h2>Esperamos que você possa celebrar este dia conosco!</h2>
     </>
   )
 }
