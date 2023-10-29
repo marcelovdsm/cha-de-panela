@@ -3,7 +3,7 @@ import { CalendarCheck, Gift, MapPin } from '@phosphor-icons/react'
 export const AboutPage = () => {
   return (
     <>
-      <h1>NOSSO CHÁ DE PANELA</h1>
+      <h1>NOSSO CHÁ DE CASA NOVA</h1>
       <ul>
         <li>
           <CalendarCheck size={16} color="#b15015" weight="fill" />
