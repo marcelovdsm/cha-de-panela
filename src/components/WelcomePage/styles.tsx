@@ -1,14 +1,15 @@
+import backgroundCouple from '../../assets/background-couple.jpg'
 import styled from 'styled-components'
 
 export const WelcomePageStyles = styled.div`
   display: flex;
-  padding: 2rem 2rem 0 2rem;
+  justify-content: center;
   width: 100vw;
-  background-color: ${(props) => props.theme.lightGreen};
+  height: 45rem;
+
   h1 {
     font-family: 'tangerine';
     font-size: 6rem;
-    margin: 8rem 0rem 1rem;
     color: ${(props) => props.theme.darkGreen};
   }
   p {
@@ -18,12 +19,21 @@ export const WelcomePageStyles = styled.div`
     color: ${(props) => props.theme.darkGreen};
     background-color: ${(props) => props.theme.lightGreen};
   }
-  img {
-    width: 20.65rem;
-    margin: 0rem 14rem 5.5rem;
-  }
 `
+
+export const BackgroundImage = styled.div`
+  background-image: url(${backgroundCouple});
+  width: 100%;
+`
+
 export const WelcomeInfo = styled.div`
   display: flex;
   flex-direction: column;
+  margin-top: 16rem;
+  align-items: center;
+  z-index: 2;
+
+  p {
+    text-align: center;
+  }
 `

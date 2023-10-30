@@ -1,9 +1,9 @@
-import { HeaderStyles } from "./styles"
+import { HeaderStyles } from './styles'
 
 export const Header = () => {
   return (
     <HeaderStyles>
-      <h2>Chá de Panela | Marcelo & Eryka</h2>
+      <h2>Chá de Casa Nova | Eryka & Marcelo</h2>
     </HeaderStyles>
   )
 }
