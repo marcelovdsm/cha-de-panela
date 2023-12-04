@@ -3,7 +3,7 @@ import { BackgroundImage, WelcomeInfo, WelcomePageStyles } from './styles'
 export const WelcomePage = () => {
   return (
     <WelcomePageStyles>
-      <BackgroundImage></BackgroundImage>
+      {/* <BackgroundImage></BackgroundImage> */}
       <WelcomeInfo>
         <h1>Seja bem vindo!</h1>
         <p>

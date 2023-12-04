@@ -21,17 +21,22 @@ export const WelcomePageStyles = styled.div`
   }
 `
 
-export const BackgroundImage = styled.div`
-  background-image: url(${backgroundCouple});
-  width: 100%;
-`
+// export const BackgroundImage = styled.div`
+//   background-image: url(${backgroundCouple});
+//   width: 100%;
+// `
 
 export const WelcomeInfo = styled.div`
   display: flex;
   flex-direction: column;
-  margin-top: 16rem;
   align-items: center;
-  z-index: 2;
+  background-image: url(${backgroundCouple});
+  width: 100vw;
+  height: 45rem;
+
+  h1 {
+    margin-top: 15rem;
+  }
 
   p {
     text-align: center;
