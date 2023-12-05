@@ -1,4 +1,4 @@
-import { BackgroundImage, WelcomeInfo, WelcomePageStyles } from './styles'
+import { WelcomeInfo, WelcomePageStyles } from './styles'
 
 export const WelcomePage = () => {
   return (

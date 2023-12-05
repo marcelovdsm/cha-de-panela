@@ -30,7 +30,7 @@ export const WelcomeInfo = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(${backgroundCouple});
+  background: url(${backgroundCouple});
   width: 100vw;
   height: 45rem;
 
