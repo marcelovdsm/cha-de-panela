@@ -12,7 +12,6 @@ import { ThemeProvider } from 'styled-components'
 export function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
-      {/* <Homepage /> */}
       <Header />
       <WelcomePage />
       <AboutPage />

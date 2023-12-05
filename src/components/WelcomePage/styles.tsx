@@ -2,40 +2,46 @@ import backgroundCouple from '../../assets/background-couple.jpg'
 import styled from 'styled-components'
 
 export const WelcomePageStyles = styled.div`
-  display: flex;
-  justify-content: center;
   width: 100vw;
   height: 45rem;
 
   h1 {
     font-family: 'tangerine';
-    font-size: 6rem;
-    color: ${(props) => props.theme.darkGreen};
+    font-size: 7rem;
+    font-weight: bold;
+    color: ${(props) => props.theme.darkGray};
+    text-shadow: 0px 11px 10px rgba(163, 163, 157, 0.8);
+    margin-bottom: 0.5rem;
   }
   p {
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5rem;
-    width: 32.5rem;
-    color: ${(props) => props.theme.darkGreen};
-    background-color: ${(props) => props.theme.lightGreen};
+    font-size: 2rem;
+    font-weight: bold;
+    width: 40rem;
+    color: ${(props) => props.theme.darkGray};
+    background-color: ${(props) => props.theme.lightGray};
+    text-shadow: 0px 11px 10px rgba(134, 134, 124, 0.8);
+    border-radius: 10px;
+    padding: 0.3rem;
+    box-shadow:
+      rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px,
+      rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px,
+      rgba(0, 0, 0, 0.09) 0px -3px 5px;
   }
 `
-
-// export const BackgroundImage = styled.div`
-//   background-image: url(${backgroundCouple});
-//   width: 100%;
-// `
 
 export const WelcomeInfo = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   background: url(${backgroundCouple});
-  width: 100vw;
+  width: 84.3125rem;
   height: 45rem;
 
   h1 {
-    margin-top: 15rem;
+    margin-top: 10rem;
   }
 
   p {

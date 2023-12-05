@@ -1,5 +1,5 @@
 export const defaultTheme = {
-  lightGreen: '#D8DFBE',
-  darkGreen: '#3b4e26',
-  backgroundLatte: '#FFF9F2',
+  lightGray: '#CED4DA',
+  darkGray: '#0E0F10',
+  backgroundLatte: '#E9ECEF',
 }
