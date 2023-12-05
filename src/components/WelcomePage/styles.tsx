@@ -10,7 +10,7 @@ export const WelcomePageStyles = styled.div`
     font-size: 7rem;
     font-weight: bold;
     color: ${(props) => props.theme.darkGray};
-    text-shadow: 0px 11px 10px rgba(163, 163, 157, 0.8);
+    text-shadow: 5px 11px 10px rgba(22, 22, 22, 0.8);
     margin-bottom: 0.5rem;
   }
   p {
